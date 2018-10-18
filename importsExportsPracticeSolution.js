@@ -1,3 +1,6 @@
+// require is a CommonJS function for importing/exporting and ships with older
+// Node versions (ES5 era)
+
 // Calling the require on the module actually executes whatever code is in
 // the module. In most cases, the module exports one or more functions or
 // an object, which you want to store in a variable. If not, the code still
