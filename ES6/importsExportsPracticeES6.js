@@ -1,19 +1,21 @@
 // what are the results of each of these lines?
-var bam = require('./input');
+var bam = require('./input.mjs');
 console.log(bam);
 
-// and this?
-var bang = require('./input').default;
+var bang = require('./input.mjs').default;
 console.log(bang);
 
-// and this?
-import bing from './input';
+import bing from './input.mjs';
 console.log(bing);
 
-// and this?
-import * as boom from './input';
+import * as boom from './input.mjs';
 console.log(boom);
 
-// what about this?
-import { foo } from './input';
+import { foo } from './input.mjs';
 console.log(foo);
+
+import Tiger from './tiger.mjs'
+console.log(Tiger)
+
+import * as Tiger from './tiger.mjs'
+console.log(Tiger)
